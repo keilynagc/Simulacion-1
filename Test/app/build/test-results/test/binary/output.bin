@@ -1,0 +1,35 @@
+Request method:	POST
+*Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+#    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 200 OK
+%Date: Wed, 13 Jul 2022 02:03:28 GMT
+/Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+ Access-Control-Allow-Origin: *
+*Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+úReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZZWpyVUmfRRqyl9dWAduRzE3wf0WACiHabfGkh5dI5eww0mqZxEYzs6lzFqKZ8IyfuIm%2BCgGCK9h6m9ffybTLv8I16h%2BMrRPjK3pe4KMPhkYefnFiHuxLK2gTw%3D%3D"}],"group":"cf-nel","max_age":604800}
+CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 729e713edc1d67cc-MIA
+
+{
+!    "token": "QpwL5tke4Pnpja7X4"
+}
